@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dubai Vize | Hızlı ve Güvenilir Dubai Vize Başvurusu</title>
+    <meta name="description" content="Dubai vize başvurunuzu 3 adımda tamamlayın! 24 saatte onay, WhatsApp desteği ve en uygun fiyat garantisi.">
+    <!-- Favicon -->
+    <link rel="icon" href="x.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        :root {
+            --primary: #003366; /* Lacivert */
+            --secondary: #FFD700; /* Altın */
+            --light: #f8f9fa;
+            --dark: #212529;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: #fff;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        /* Header */
+        header {
+            background-color: var(--primary);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Genel navbar düzeni */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Logo ve hamburger aynı sırada */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+.logo span {
+    color: #007bff;
+}
+
+/* Hamburger */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.hamburger span {
+    height: 3px;
+    width: 25px;
+    background-color: #333;
+    margin: 4px 0;
+    border-radius: 2px;
+}
+
+/* Menü bağlantıları */
+.nav-links {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Mobil görünüm için */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
+
+        
+        .whatsapp-btn {
+            background-color: #25D366;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+        }
+        
+        .whatsapp-btn i {
+            margin-right: 5px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)), url('1.jpg') no-repeat center center/cover;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--secondary);
+            color: var(--primary);
+            padding: 12px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: #e6c200;
+            transform: translateY(-3px);
+        }
+        
+        /* Vize Hesaplama */
+        .vize-hesapla {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            margin-top: -50px;
+            position: relative;
+            z-index: 10;
+        }
+        
+        .vize-hesapla h2 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        
+        .form-control {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        .form-row {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .form-row .form-group {
+            flex: 1;
+        }
+        
+        /* Avantajlar */
+        .avantajlar {
+            padding: 80px 0;
+            background-color: var(--light);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            color: var(--primary);
+        }
+        
+        .avantaj-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .avantaj-card {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+        }
+        
+        .avantaj-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .avantaj-icon {
+            font-size: 40px;
+            color: var(--secondary);
+            margin-bottom: 20px;
+        }
+        
+        .avantaj-card h3 {
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+        
+        /* Vize Türleri */
+        .vize-turleri {
+            padding: 80px 0;
+        }
+        
+        .vize-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .vize-card {
+            border: 1px solid #eee;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .vize-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .vize-content {
+            padding: 20px;
+        }
+        
+        .vize-content h3 {
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+        
+        .vize-content ul {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        
+        .vize-content .price {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--secondary);
+            margin: 15px 0;
+        }
+        
+        /* Başvuru Süreci */
+        .basvuru-sureci {
+            padding: 80px 0;
+            background-color: var(--light);
+        }
+        
+        .steps {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+            position: relative;
+        }
+        
+        .step {
+            text-align: center;
+            flex: 1;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background-color: var(--secondary);
+            color: var(--primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 700;
+            margin: 0 auto 20px;
+        }
+        
+        .step h3 {
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+        
+        .steps::before {
+            content: '';
+            position: absolute;
+            top: 30px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background-color: #ddd;
+            z-index: 0;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--primary);
+            color: white;
+            padding: 60px 0 20px;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-col h3 {
+            color: var(--secondary);
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+        
+        .footer-col ul {
+            list-style: none;
+        }
+        
+        .footer-col ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-col ul li a {
+            color: #ddd;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-col ul li a:hover {
+            color: var(--secondary);
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .social-links a {
+            color: white;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+        
+        .social-links a:hover {
+            color: var(--secondary);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 14px;
+        }
+        
+        /* WhatsApp Float Button */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 50px;
+            right: 30px;
+            background-color: #25D366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            z-index: 99;
+            transition: all 0.3s;
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+            }
+			/* Instagram Float Button */
+        .instagram-float {
+            position: fixed;
+            bottom: 50px;
+            right: 100px;
+            background-color: #d32553;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            z-index: 99;
+            transition: all 0.3s;
+        }
+        
+        .instagram-float:hover {
+            transform: scale(1.1);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+            }
+            
+            .nav-links {
+                margin-top: 20px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .nav-links li {
+                margin: 5px 15px;
+            }
+			.nav-links {
+  display: none;
+  flex-direction: column;
+  /* diğer stiller */
+}
+
+.nav-links.active {
+  display: flex;
+}
+
+            
+            .hero {
+                height: auto;
+                padding: 100px 0;
+            }
+            
+            .hero h1 {
+                font-size: 32px;
+            }
+            
+            .form-row {
+                flex-direction: column;
+                gap: 0;
+            }
+            
+            .steps {
+                flex-direction: column;
+                gap: 40px;
+            }
+            
+            .steps::before {
+                display: none;
+            }
+            
+           
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+    <div class="nav-container">
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+            Dubai<span>Vize</span>
+        </a>
+
+        <!-- Hamburger Menu Button -->
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links" id="nav-links">
+        <li><a href="#vize-turleri">Vize Türleri</a></li>
+        <li><a href="#basvuru-sureci">Başvuru Süreci</a></li>
+        <li><a href="#footer">İletişim</a></li>
+        <li>
+            <a href="https://wa.me/905314365533" class="whatsapp-btn">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+        </li>
+    </ul>
+</nav>
+
+        </div>
+    </header>
+	
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Dubai Vize Başvurunuzu 3 Adımda Tamamlayın</h1>
+                <p>30 saniyede online başvuru, 24 saatte onay garantisi ve en uygun fiyatlar!</p>
+                <a href="https://wa.me/905314365533" class="btn">Hemen Başvur</a>
+            </div>
+        </div>
+    </section>
+
+<!-- Vize Türleri -->
+    <section id="vize-turleri">
+        <div class="container">
+            <h2 class="section-title">Vize Türleri</h2>
+            <div class="vize-grid">
+                <div class="vize-card">
+                    <img src="1.jpg" alt="Turistik Vize">
+                    <div class="vize-content">
+                        <h3>30 Gün Tek Girişli Dubai Vizesi</h3>
+                        <ul>
+                            <li>30 gün geçerlilik</li>
+                            <li>Tek girişli</li>
+                            <li>Pasaport teslim gerekmez</li>
+                        </ul>
+                        <div class="price">$125'den başlayan fiyatlar</div>
+                        <a href="https://wa.me/905314365533" class="btn">Detaylı Bilgi</a>
+                    </div>
+                </div>
+               
+                <div class="vize-card">
+                    <img src="2.jpg" alt="Turistik Vize">
+                    <div class="vize-content">
+                        <h3>30 Gün Tek Giriş Express Vize (3 SAATTE HAZIR)</h3>
+                        <ul>
+                            <li>30 gün geçerlilik</li>
+                            <li>Tek girişli</li>
+                            <li>Pasaport teslim gerekmez</li>
+                        </ul>
+                        <div class="price">$199'dan başlayan fiyatlar</div>
+                        <a href="https://wa.me/905314365533" class="btn">Detaylı Bilgi</a>
+                    </div>
+                </div>
+                <div class="vize-card">
+                    <img src="3.jpg" alt="Turistik Vize">
+                    <div class="vize-content">
+                        <h3>30 Gün Çok Girişli Dubai Vizesi</h3>
+                        <ul>
+                            <li>30 gün geçerlilik</li>
+                            <li>Çok girişli</li>
+                            <li>Pasaport teslim gerekmez</li>
+                        </ul>
+                        <div class="price">$199'dan başlayan fiyatlar</div>
+                        <a href="https://wa.me/905314365533" class="btn">Detaylı Bilgi</a>
+                    </div>
+                </div>
+                <div class="vize-card">
+                    <img src="4.jpg" alt="Turistik Vize">
+                    <div class="vize-content">
+                        <h3>60 Gün Tek Girişli Dubai Vizesi</h3>
+                        <ul>
+                            <li>60 gün geçerlilik</li>
+                            <li>Tek girişli</li>
+                            <li>Pasaport teslim gerekmez</li>
+                        </ul>
+                        <div class="price">$199'dan başlayan fiyatlar</div>
+                        <a href="https://wa.me/905314365533" class="btn">Detaylı Bilgi</a>
+                    </div>
+					 <div class="vize-card">
+                    <img src="5.jpg" alt="Turistik Vize">
+                    <div class="vize-content">
+                        <h3>60 Gün Çok Girişli Dubai Vizesi</h3>
+                        <ul>
+                            <li>60 gün geçerlilik</li>
+                            <li>Çok girişli</li>
+                            <li>Pasaport teslim gerekmez</li>
+                        </ul>
+                        <div class="price">$299'dan başlayan fiyatlar</div>
+                        <a href="https://wa.me/905314365533" class="btn">Detaylı Bilgi</a>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+      
+   <!-- Vize Hesaplama Formu -->
+   
+    <!-- Avantajlar -->
+    <section class="avantajlar">
+        <div class="container">
+            <h2 class="section-title">Neden Biz?</h2>
+            <div class="avantaj-grid">
+                <div class="avantaj-card">
+                    <div class="avantaj-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>24 Saatte Onay</h3>
+                    <p>Aciliyeti olan başvurularınız aynı gün sonuçlanır.</p>
+                </div>
+                <div class="avantaj-card">
+                    <div class="avantaj-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>7/24 Destek</h3>
+                    <p>WhatsApp'tan canlı destek ile tüm sorularınızı yanıtlıyoruz.</p>
+                </div>
+                <div class="avantaj-card">
+                    <div class="avantaj-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>%100 Güvenli</h3>
+                    <p>Resmi Dubai göçmenlik sistemi üzerinden işlem yapıyoruz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Başvuru Süreci -->
+    <section id="basvuru-sureci">
+        <div class="container">
+            <h2 class="section-title">3 Adımda Başvuru Süreci</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Online Formu Doldurun</h3>
+                    <p>Gerekli bilgileri eksiksiz doldurarak başvurunuzu oluşturun.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Ödeme Yapın</h3>
+                    <p>Güvenli ödeme sistemimizle kredi kartınızla kolayca ödeme yapın.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Vizenizi Alın</h3>
+                    <p>Onaylanan vizeniz e-posta ve WhatsApp ile size iletilecektir.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+	<section id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>DubaiVizeOnline</h3>
+                    <p>Dubai'ye seyahatleriniz için en hızlı ve güvenilir vize çözümleri.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+               
+                <div class="footer-col">
+                    <h3>İletişim</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Dubai, UAE</li>
+                        <li><i class="fas fa-phone"></i> +90 531 436 5533</li>
+                        <li><i class="fab fa-whatsapp"></i> WhatsApp: +90 531 436 5533</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 DubaiVizeOnline. Tüm hakları saklıdır. | <a>Gizlilik Politikası</a></p>
+            </div>
+        </div>
+		</section>
+    </footer>
+ 
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/905314365533" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+<a href="https://www.instagram.com/dubaivizeonline" class="instagram-float">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <!-- Scripts -->
+    <script>
+    document.querySelector('.vize-hesapla form').addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const vizeTuru = document.getElementById('vize-turu').value;
+        const ulus = document.getElementById('ulus').value;
+        const girisTarihi = document.getElementById('giris').value;
+        const cikisTarihi = document.getElementById('cikis').value;
+
+        if (!vizeTuru || !ulus || !girisTarihi || !cikisTarihi) {
+            alert("Lütfen tüm alanları doldurunuz.");
+            return;
+        }
+
+        // Ücret hesaplama
+        let ucret = 0;
+
+        if (vizeTuru === 'turistik') {
+            ucret = ulus === 'tr' ? 100 : 120;
+        } else if (vizeTuru === 'ticari') {
+            ucret = ulus === 'tr' ? 150 : 180;
+        } else if (vizeTuru === 'aile') {
+            ucret = ulus === 'tr' ? 90 : 110;
+        }
+
+        // Sonuç gösterimi
+        const sonucMesaji = `Vize Türü: ${vizeTuru.charAt(0).toUpperCase() + vizeTuru.slice(1)}\nUyruk: ${ulus === 'tr' ? 'Türk Vatandaşı' : 'Diğer'}\nTahmini Vize Ücreti: ${ucret} USD`;
+
+        alert(sonucMesaji);
+
+        // Burada backend'e gönderme işlemi yapılabilir (örneğin: fetch ile)
+    });
+	document.getElementById('sonuc').innerText = sonucMesaji;
+
+</script>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+  const links = document.querySelectorAll('#nav-links a'); // Menüdeki tüm linkleri seç
+
+  // Hamburger ikonuna tıklayınca menüyü aç/kapat
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+
+  // Menüdeki her linke tıklanınca menüyü kapat
+  links.forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+    });
+  });
+</script>
+
+
+
+
+</body>
+</html>
